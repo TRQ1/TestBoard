@@ -1,6 +1,4 @@
 #disable target directory
-target/
-Users/
 .settings/
 .externalToolBuilders/
 .idea/
