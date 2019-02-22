@@ -5,23 +5,12 @@
          version="3.1">
     <display-name>test-framework</display-name>
     <servlet>
-        <servlet-name>dispatchServlet</servlet-name>
-        <servlet-class>com.framework.q1.framework.action</servlet-class>
+        <servlet-name>action</servlet-name>
+        <servlet-class>com.framework.q1.framework.servlet.ActionServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>dispatchServlet</servlet-name>
-        <url-pattern>/testServlet.do</url-pattern>
+        <servlet-name>action</servlet-name>
+        <url-pattern>*.do</url-pattern>
     </servlet-mapping>
 
-    <!-- filter definition -->
-    <filter>
-        <filter-name>boardFilter</filter-name>
-        <filter-class>com.framework.q1.framework.filter</filter-class>
-    </filter>
-
-    <!-- filter url mapping -->
-    <filter-mapping>
-        <filter-name>boardFilter</filter-name>
-        <url-pattern>/testServlet.do</url-pattern>
-    </filter-mapping>
 </web-app>
