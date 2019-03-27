@@ -1,9 +1,5 @@
 package com.framework.q1.framework.servlet;
 
-import com.framework.q1.framework.action.Action;
-import com.framework.q1.framework.action.DetailAction;
-import com.framework.q1.framework.action.MainAction;
-
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
